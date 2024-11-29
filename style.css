@@ -1,0 +1,93 @@
+/* Reset */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body 스타일 */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.35;
+    font-size: 0.935em;
+    margin: 0 165px;
+}
+
+/* 헤더 */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+header p {
+    color: #666;
+    margin: 5px 0;
+}
+
+h4 {
+    margin-bottom: -5px;
+}
+
+/* 섹션 스타일 */
+section {
+    padding-bottom: 50px;
+}
+
+section h2 {
+    font-size: 1.35em;
+    color: #777777;
+    border-bottom: 1px solid #b0b0b0;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+section p, section ul {
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 5px;
+}
+
+
+ul li {
+    margin-bottom: 5px;
+    padding-left: 20px;
+    position: relative;
+}
+
+ul li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #000000;
+}
+
+/* 링크 기본 색상 */
+a {
+    color: #333333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* 링크 호버 시 색상 */
+a:hover {
+    color: #ff6600; /* Orange color on hover */
+    text-decoration: underline;
+}
+
+
+/* 푸터 */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #777;
+}
